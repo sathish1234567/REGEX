@@ -1,0 +1,11 @@
+1.
+[a-z] - allow only a to z lowercase
+[A-Z] - allow only A to Z- upper case 
+
+a to z or A to Z : matches the single character in the range between a anz z  
+- g - global modifier - All matches (don't return after first match )
+- m - modifier - multi line - causes ^ and $ to match the begin/ end of each line ( not only begin / end of string ) 
+
+2.
+^[a-z] or ^[A-Z]
+matches any character except a-z/A-Z range
